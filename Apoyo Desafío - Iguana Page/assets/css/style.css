@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.title  {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    /*padding: 2rem;*/
+    font-weight: 300;
+    font-size: 50px;
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+}
+
+.descripcion {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 3rem;
+}
+
+.descripcion .texto, .descripcion #Iguana-1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.descripcion .texto{
+    width: 45%;
+    font-weight: lighter;
+
+}
+
+#Iguana-1 {
+    width: 50%;
+    padding-left: 2%;
+}
+
+#caracteristicas {
+    background-color: #1e1a13;
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#caracteristicas h2{
+    margin: 25px;
+    font-size: 300;
+}
+
+#caracteristicas div {
+    display: inline-block;
+    width: 33%;
+    /*padding: 2 rem 0rem;*/
+    margin: 0 2 rem;
+    font-weight: lighter;
+}
+
+#imagenes {
+    background-color: #000000;
+}
+
+/* #imagenes div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+    padding: 0,5rem;
+    margin: 2rem;
+} */
+
+#iguana-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#iguana-2 img {
+    width: 20%;
+    margin: 40px;
+}
+
+footer {
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+    padding: 30px;
+    text-align: center;
+}
